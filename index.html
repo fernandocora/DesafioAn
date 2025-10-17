@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -46,7 +47,10 @@
                 empresa para a criação de um mascote.
             </p>
 
-            <img src="Assets/imagens/dan-droids.png" alt="">
+            <picture>
+                <source media="(max-width: 670px)" srcset="Assets/imagens/dan-droids-pq.png">
+                <img src="Assets/imagens/dan-droids.png" alt="Primeiro mascote">
+            </picture>
 
             <p>
                 Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
@@ -57,13 +61,17 @@
                 de uma maneira mais agradável.
             </p>
 
-            <img src="Assets/imagens/irina-blok.jpg" alt="">
+            <picture>
+                <source media="(max-width: 670px)" srcset="Assets/imagens/irina-blok-pq.jpg">
+                <img src="Assets/imagens/irina-blok.jpg" alt="Criadora do mascote">
+            </picture>
 
             A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O
-            desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote
+            desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>,
+            o novo mascote
             do Android.
 
-            <img src="" alt="">
+            <img src="Assets/imagens/bugdroid.png" class="pequena" alt="Bugdroid">
 
             A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de
             banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no
@@ -114,11 +122,12 @@
                 seu simpático mascote.
             </p>
         </article>
-
-        <footer>
-            Site criado por Gustavo Guanabara para o CursoemVideo.
-        </footer>
     </main>
+
+
+    <footer>
+        Site criado por Gustavo Guanabara para o CursoemVideo.
+    </footer>
 </body>
 
 </html>
